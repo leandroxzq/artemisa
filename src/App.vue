@@ -6,10 +6,18 @@ import Signature from "./components/Signature.vue";
 </script>
 
 <template>
-	<Load />
-	<Background />
-	<Signature />
+	<header class="header">
+		<Load />
+		<Background />
+		<Signature />
+	</header>
 	<Daily />
 </template>
 
-<style scoped></style>
+<style scoped>
+.header {
+	position: relative;
+	height: 100dvh;
+	width: 100%;
+}
+</style>

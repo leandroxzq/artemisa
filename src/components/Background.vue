@@ -1,17 +1,8 @@
 <script setup></script>
 <template>
-	<header class="header">
-		<div class="header__background"></div>
-		<!--<h1 class="header__signature">Artemisa</h1> -->
-	</header>
+	<div class="header__background"></div>
 </template>
 <style>
-.header {
-	position: relative;
-	height: 100dvh;
-	width: 100%;
-}
-
 .header__background {
 	position: absolute;
 	height: 100dvh;
