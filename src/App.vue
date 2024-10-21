@@ -17,7 +17,7 @@ import Signature from "./components/Signature.vue";
 <style scoped>
 .header {
 	position: relative;
-	height: 100dvh;
+	height: 100vh;
 	width: 100%;
 }
 </style>
