@@ -17,7 +17,7 @@ onMounted(() => {
 <style scoped>
 .load {
 	position: fixed;
-	height: 100vh;
+	height: 100%;
 	width: 100vw;
 	z-index: 2;
 	max-width: 1280px;

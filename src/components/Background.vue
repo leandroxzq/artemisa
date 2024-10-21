@@ -5,7 +5,7 @@
 <style>
 .header__background {
 	position: absolute;
-	height: 100vh;
+	height: 100%;
 	width: 100%;
 	z-index: 1;
 	background: url(../assets/img/5EC79C09-078A-4BB3-B482-651709977CAC.jpg);
