@@ -24,10 +24,10 @@ onMounted(() => {
 <style scoped>
 .signature {
 	position: fixed;
-	z-index: 100;
 	top: 50%;
 	left: 50%;
 	width: 100%;
+	z-index: 3;
 	transform: translateX(-50%) translateY(-50%);
 	color: #fff;
 	font-family: "Rusillaserif";

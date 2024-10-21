@@ -19,10 +19,9 @@ onMounted(() => {
 	position: fixed;
 	height: 100vh;
 	width: 100vw;
-	background: #000000;
 	z-index: 2;
-	margin: 0;
-	padding: 0;
+	max-width: 1280px;
+	background: #000000;
 	animation: upNone 3s cubic-bezier(0.695, 0.245, 0, 0.98) forwards 1s;
 }
 
