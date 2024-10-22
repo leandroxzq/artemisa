@@ -40,9 +40,9 @@ onMounted(() => {
 
 .signature span {
 	display: inline-block;
-	transform: scale(0);
+	transform: scale(0) rotate(90deg);
 	filter: drop-shadow(0px 0px 25px #fff);
-	animation: scaleUp 0.5s forwards;
+	animation: scaleUp 0.5s forwards cubic-bezier(0.1, 0.245, 0.1, 0.1);
 }
 
 .signature span:nth-child(1) {
@@ -71,8 +71,16 @@ onMounted(() => {
 }
 
 @keyframes scaleUp {
-	to {
-		transform: scale(1);
+	0% {
+		transform: scale(0) rotate(60deg);
+	}
+
+	80% {
+		transform: scale(0.8) rotate(-20deg);
+	}
+
+	100% {
+		transform: scale(1) rotate(0deg);
 	}
 }
 
